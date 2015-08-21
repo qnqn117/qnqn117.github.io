@@ -17,6 +17,7 @@
 	font-size: 27px!important;
 	padding-top: 6px;
 	color: #fff!important;
+	border:0px!important;
 }
 .box {
 	height:700px;
@@ -35,12 +36,28 @@
 }
 
 .imagebutton {
-	height:200px!important;
-	background-color: #eee!important;
-	border: 1px solid black;
+	height: 200px!important;
+	overflow:hidden;
+	padding-left: 15px!important;
+	padding-right: 15px!important;
+	margin-top: 25px
 }
 
+.image {
+	width: 100%;}
+
+.logo {
+	position: relative;
+	top:-20px;}
+    
+
 .about{
-	height: 700px;
-	background-color: 
+	height: 400px;
+	background-color:#eee;
+	margin-top: 25px;
+	text-align: center;
 }
+p {
+	margin-top: 30px;
+}
+	
