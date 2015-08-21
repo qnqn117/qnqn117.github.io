@@ -1,0 +1,49 @@
+@font-face {
+    font-family: name;
+    src: url(Andrea-Normal.otf);
+}
+
+.mynavbarbrand { font-size: 35px;
+
+
+}
+
+
+.mynavbar {
+	background-color: #BED95B;
+	font-family: name;
+	font-size: 27px!important;
+	height:70px;
+	padding-top: 6px;
+}
+
+.box {
+	height:700px;
+
+}
+
+.carousel {
+	margin-top: 65px;
+	background-attachment: fixed;
+
+}
+
+.carousel-control:hover {
+	background:none!important;
+
+}
+
+$('#myModal').modal({
+  keyboard: true;
+  show:false;
+})
+
+.imagebutton{
+	height:200px!important;
+	background background-color: #eee!important;
+}
+
+.about{
+	height: 700px;
+	background background-color: 
+}
