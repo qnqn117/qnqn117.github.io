@@ -16,7 +16,7 @@
 	font-family: name;
 	font-size: 27px!important;
 	padding-top: 6px;
-	color: #fff!important;
+	color: !important;
 	border:0px!important;
 }
 .box {
@@ -36,11 +36,11 @@
 }
 
 .imagebutton {
-	height: 200px!important;
+	height: 150px!important;
 	overflow:hidden;
 	padding-left: 15px!important;
 	padding-right: 15px!important;
-	margin-top: 25px
+	margin-top: 20px
 }
 
 .image {
@@ -48,15 +48,16 @@
 
 .logo {
 	position: relative;
-	top:-20px;}
+	top:-15px;
+}
     
 
 .about{
 	height: 400px;
-	background-color:#eee;
 	margin-top: 25px;
 	text-align: center;
 }
+
 p {
 	margin-top: 30px;
 }
