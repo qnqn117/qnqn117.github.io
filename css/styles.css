@@ -8,6 +8,10 @@
 	color: #fff!important;
 	height: 60px;
 }
+.mynavbarbrand:hover {
+	color: #D84867;
+
+}
 .navbar-nav a {
 	color: #fff!important;
 }
@@ -56,9 +60,53 @@
 	height: 400px;
 	margin-top: 25px;
 	text-align: center;
+	margin-top: 65px;
+}
+
+.about_header{
+	margin-top: 50px;
 }
 
 p {
 	margin-top: 30px;
+}
+
+
+
+
+.contactimage{
+	height: 500px;
+	width:100%;
+	background-image: url(../image/stlawrenceillust.jpg);
+	background-attachment: fixed;
+}
+
+.contact{
+	text-align: center;
+
+}
+.contactrow{
+	height: 800px;
+}
+.map-pic{
+	width:461px;
+	display: block;
+	margin:0 auto;
+}
+
+.maple{
+	height: 300px;
+	width:100%;
+	background-image: url(../image/maplesyrup.jpg);
+	background-attachment: fixed;
+	
+}
+
+.market{
+	height: 300px;
+	width:100%;
+	background-image: url(../image/market_large.jpg);
+	background-attachment: fixed;
+
 }
 	
