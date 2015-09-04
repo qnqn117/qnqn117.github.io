@@ -52,31 +52,54 @@
 	overflow:hidden;
 	padding-left: 15px!important;
 	padding-right: 15px!important;
-	margin-top: 20px
+	margin-top: 20px;
+	position:relative;
 }
 
 .image {
 	width: 100%;}
 
 .logo {
-	position: relative;
-	top:-15px;
-}
-    
+	position: absolute;
+	    top: 300px;
+    left:  623px;
+	
 
+}
 .about{
-	height: 400px;
-	margin-top: 25px;
-	text-align: center;
-	margin-top: 65px;
+	height: 1100px;
+	font-family: yorkville;
 }
 
 .about_header{
-	margin-top: 50px;
+	margin-top: 60px;
+	text-align: center;
+}
+.bakepic{
+	height:1000;
+}
+.bake-container{
+	width:250px;
+	height:400px;
+}
+.bake{
+	width:100%;
+	position: relative;
+	left:390px;
+	top:35px;
+}
+.about_header > h1{
+	margin-top: 37px;
+	
 }
 
 p {
 	margin-top: 30px;
+	margin-left: 60px;
+	width:400px;
+	position: relative;
+	left:50%
+	left:-200px;
 }
 
 
@@ -92,32 +115,29 @@ p {
 .contact{
 	text-align: center;
 	font-family: yorkville;
-	margin-top: 40px;
-	margin-bottom: 40px;
-
+	margin-top: 30px;
+	margin-left: auto;
+    margin-right: auto;
+}
+.open_hour{
+	font-family: yorkville;
 }
 .contactrow{
-	height: 700px;
+	height: 850px;
 }
 .map-pic{
 	width:461px;
 	display: block;
 	margin:0 auto;
-}
-
-.maple{
-	height: 300px;
-	width:100%;
-	background-image: url(../image/maplesyrup.jpg);
-	background-attachment: fixed;
 	
 }
 
 .market{
-	height: 300px;
+	height: 400px;
 	width:100%;
-	background-image: url(../image/market_large.jpg);
+	background-image: url(../image/about.jpg);
 	background-attachment: fixed;
+	background-position: 0px 66px;
 
 }
 .menu {
@@ -253,7 +273,19 @@ h5 {
 	margin-left: 100px;
 	font-family: yorkville;
 }
-/*.cost_margin{
-	margin-top:300px;*/
+
+
+.video-container{
+	position:relative;
+	margin-top: -15px;
 }
+
+.video-container video{
+	width:100%;
+	position:relative;
+	top:0px;
+}
+
+
+
 
